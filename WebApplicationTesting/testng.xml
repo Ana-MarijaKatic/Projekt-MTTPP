@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AllTestsSuite">
+    <test name="Login Test">
+        <classes>
+            <class name="LoginTest"/>
+        </classes>
+    </test>
+    <test name="Update Account Test">
+        <classes>
+            <class name="AccountTest"></class>
+        </classes>
+    </test>
+    <test name="Add The Item In The Shopping Cart Test">
+        <classes>
+            <class name="ShoppingCartTest"></class>
+        </classes>
+    </test>
+    <test name="Add The Item To The Wish List Test">
+        <classes>
+            <class name="WishListTest"></class>
+        </classes>
+    </test>
+    <test name="Search For The Item Test">
+        <classes>
+            <class name="ItemTest"></class>
+        </classes>
+    </test>
+</suite>
